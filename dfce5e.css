@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.message img.chat-portrait-message-portrait-dnd5e {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.85);
+     /* object-fit: cover !important; */
+    object-position: top;
+    border: none;
+    flex: 0 0 0px;
+    background: var(--dnd5e-color-light-gray);
+    height: 100%;
+    display: inline-block !important;
+    place-content: center;
+    margin-right:5px;
+    margin-bottom: 5px;
+
+      /* line-height: 0px !important; */
+  }
+
+  #chat-log .message img.chat-portrait-message-portrait-dnd5e { 
+    display:none !important;
+  }
+  
+  .midi-qol-hits-display img {
+      width: 60px; 
+      height: auto; 
+  }
+  
+  .midi-qol-saves-display img {
+      width: 60px; 
+      height: auto; 
+  }
+  
+  .chat-message.message.flexcol.dfce-cm-middle .message-header, .chat-message.message.flexcol.dfce-cm-bottom .message-header {
+  display:none;
+  }
+  
+  li.chat-message.message .message-content * {display: none }
+  
+  :is(.chat-popout, #chat-log) .message {
+  border-top: none !important;
+  border-radius: 0px !important; 
+  } 
+  
+  #df-chat-log {
+    font-family: Ridibatang !important;
+  }
+
+  #df-chat-log .message-content {
+  }
+
+  #df-chat-log .message-sender {
+ display:grid;}
+
+  #df-chat-log .subtitle {
+  font-size: 14px;
+   color: #999;
+  display:grid;
+  }
+
+#df-chat-log .chat-message .message-header h4 .subtitle {
+  display:grid;
+}
