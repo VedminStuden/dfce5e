@@ -1,0 +1,51 @@
+
+{
+  "id": "dfce-5e",
+  "title": "dfce-5e",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "df-chat-enhance",
+        "type": "module",
+        "compatibility": {}
+      },
+      { "id":"chat-portrait",
+        "type": "module",
+        "compatibility": {}
+    ]
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+
+  "styles":[
+    "dfce5e.css"
+    ],
+
+  "scripts":[
+    "main.js"
+  ],
+
+
+  "authors": [
+    {
+      "name": "Vedmin_Studen",
+      "discord": "vedmin_studen",
+      "email": "whktjr0212@gmail.com",
+      "url": "https://github.com/VedminStuden",
+      "manifest":	"https://dragonflagon.cafe/mods/man/df-chat-enhance",
+      "download":	"https://dragonflagon.cafe/mods/pak/df-chat-enhance",
+      "flags": {}
+    }
+  ]
+}
