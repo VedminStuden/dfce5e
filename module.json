@@ -18,7 +18,7 @@
       { "id":"chat-portrait",
         "type": "module",
         "compatibility": {}
-    ]
+    ],
     "systems": [
       {
         "id": "dnd5e",
