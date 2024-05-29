@@ -50,9 +50,8 @@
   display:none;
   }
   
-  li.chat-message.message .message-content h4
-  
-  {display: none }
+  #chat-log .chat-portrait-playerName-dnd5e
+  { display: none; }
   
   :is(.chat-popout, #chat-log) .message {
   border-top: none !important;
