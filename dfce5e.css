@@ -59,17 +59,9 @@
   border-radius: 0px !important; 
   } 
   
-  .df-chat-print {
-  background-image: ('./ui/parchment.jpg') 
+  #df-chat-log {
+    font-family: Ridibatang !important;
   }
-  .df-chat-print img.chat-portrait-message-portrait-dnd5e {
-    background: var(--dnd5e-color-light-gray);
-    height: 100%;
-    display: inline-block !important;
-    place-content: center;
-    margin-right:5px;
-    margin-bottom: 5px;
-    }
 
   #df-chat-log .message-sender {
  display:grid;}
