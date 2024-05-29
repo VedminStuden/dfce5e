@@ -43,8 +43,8 @@
       "discord": "vedmin_studen",
       "email": "whktjr0212@gmail.com",
       "url": "https://github.com/VedminStuden",
-      "manifest":	"https://dragonflagon.cafe/mods/man/df-chat-enhance",
-      "download":	"https://dragonflagon.cafe/mods/pak/df-chat-enhance",
+      "manifest":	"https://raw.githubusercontent.com/VedminStuden/dfce5e/main/module.json",
+      "download":	"https://github.com/VedminStuden/dfce5e/archive/refs/heads/main.zip",
       "flags": {}
     }
   ]
