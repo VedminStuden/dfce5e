@@ -35,17 +35,6 @@
   #chat-log .message img.chat-portrait-message-portrait-dnd5e { 
     display:none !important;
   }
-  
-  .midi-qol-hits-display img {
-      width: 60px; 
-      height: auto; 
-  }
-  
-  .midi-qol-saves-display img {
-      width: 60px; 
-      height: auto; 
-  }
-  
   .chat-message.message.flexcol.dfce-cm-middle .message-header, .chat-message.message.flexcol.dfce-cm-bottom .message-header {
   display:none;
   }
