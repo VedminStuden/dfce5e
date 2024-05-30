@@ -36,16 +36,6 @@
     display:none !important;
   }
   
-  .midi-qol-hits-display img {
-      width: 60px; 
-      height: auto; 
-  }
-  
-  .midi-qol-saves-display img {
-      width: 60px; 
-      height: auto; 
-  }
-  
   .chat-message.message.flexcol.dfce-cm-middle .message-header, .chat-message.message.flexcol.dfce-cm-bottom .message-header {
   display:none;
   }
@@ -78,18 +68,18 @@
 }
 
 .midi-qol-hits-display img {
-  height: inherit;
-  aspect-ratio: 1;
+  height: inherit !important; 
+  aspect-ratio: 1 !important; 
 }
 .midi-qol-saves-display img {
-  aspect-ratio: 1;
-  height: inherit;
+  aspect-ratio: 1 !important; 
+  height: inherit !important; 
 }
 
 .midi-qol.target.hit, .midi-qol.target {
-  display: flex;
-  margin-bottom: 5px;
-  column-gap: 5px;
+  display: flex !important; 
+  margin-bottom: 5px !important; 
+  column-gap: 5px !important; 
 }
 
 #df-chat-log .dfce-cm-bottom, .dfce-cm-middle h4 { display: none; }
