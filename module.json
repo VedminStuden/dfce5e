@@ -1,7 +1,7 @@
 {
     "id": "dfce-5e",
     "title": "dfce-5e",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "compatibility": {
       "minimum": "11",
       "verified": "11",
@@ -30,12 +30,7 @@
     "styles":[
       "dfce5e.css"
       ],
-  
-    "scripts":[
-      "main.js"
-    ],
-  
-  
+    
     "authors": [
       {
         "name": "Vedmin_Studen",
