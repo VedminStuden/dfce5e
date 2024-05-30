@@ -35,12 +35,20 @@
   #chat-log .message img.chat-portrait-message-portrait-dnd5e { 
     display:none !important;
   }
+  
+  .midi-qol-hits-display img {
+      width: 60px; 
+      height: auto; 
+  }
+  
+  .midi-qol-saves-display img {
+      width: 60px; 
+      height: auto; 
+  }
+  
   .chat-message.message.flexcol.dfce-cm-middle .message-header, .chat-message.message.flexcol.dfce-cm-bottom .message-header {
   display:none;
   }
-  
-  #chat-log .chat-portrait-playerName-dnd5e
-  { display: none; }
   
   :is(.chat-popout, #chat-log) .message {
   border-top: none !important;
@@ -50,7 +58,6 @@
   #df-chat-log {
     font-family: Ridibatang !important;
   }
-
   #df-chat-log .message-sender {
  display:grid;}
 
@@ -83,4 +90,13 @@
   display: flex;
   margin-bottom: 5px;
   column-gap: 5px;
+}
+
+#df-chat-log .dfce-cm-bottom, .dfce-cm-middle h4 { display: none; }
+
+
+#chat-log .chat-portrait-text-content-name-dnd5e { display: none; }
+
+.chat-portrait-text-content-name-dnd5e {
+position:relative; left: 45px; bottom:10px; margin-bottom:-10px; font-size: smaller; 
 }
