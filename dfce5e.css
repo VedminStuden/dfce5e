@@ -80,3 +80,18 @@
   margin-bottom: 0;
   border-bottom-style: none !important;
 }
+
+.midi-qol-hits-display img {
+  height: inherit;
+  aspect-ratio: 1;
+}
+.midi-qol-saves-display img {
+  aspect-ratio: 1;
+  height: inherit;
+}
+
+.midi-qol.target.hit, .midi-qol.target {
+  display: flex;
+  margin-bottom: 5px;
+  column-gap: 5px;
+}
