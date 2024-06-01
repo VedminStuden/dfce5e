@@ -13,14 +13,17 @@
 }
 
 
-.message img.chat-portrait-message-portrait-dnd5e {
+#df-chat-log .chat-portrait-message-portrait-dnd5e {
+ aspect-ratio: 1;
+}
+
+#df-chat-log .message img.chat-portrait-message-portrait-dnd5e {
     width: 38px;
     height: 38px;
     border-radius: 100%;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.85);
-     /* object-fit: cover !important; */
     object-position: top;
-    border: none;
+    border: d;
     flex: 0 0 0px;
     background: var(--dnd5e-color-light-gray);
     height: 100%;
@@ -28,7 +31,8 @@
     place-content: center;
     margin-right:5px;
     margin-bottom: 5px;
-
+    10% 20%);
+    object-fit: cover;
       /* line-height: 0px !important; */
   }
 
