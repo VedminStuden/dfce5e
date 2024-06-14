@@ -92,5 +92,20 @@
 #chat-log .chat-portrait-text-content-name-dnd5e { display: none; }
 
 .chat-portrait-text-content-name-dnd5e {
-position:relative; left: 45px; bottom:10px; margin-bottom:-10px; font-size: smaller; 
+position:relative;
+  left: 45px;
+  margin-top:-12px;
+  
+  font-size: smaller; 
+}
+
+#df-chat-log .flavor-text {
+place-content: center !important;
+margin-top:-28px !important;
+position: relative !important;
+bottom: -25px !important;
+}
+
+#df-chat-log .gold-icon {
+display: none !important;
 }
